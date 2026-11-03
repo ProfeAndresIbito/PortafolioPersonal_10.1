@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 
 html{
@@ -15,7 +18,7 @@ html{
     height: 100vh;
 }
 
-section header{
+#inicio .contenido header{
     background-color: rgba(0, 0, 0, .8);
     position: fixed;
     width: 100%;
@@ -23,6 +26,15 @@ section header{
     top: 0;
 }
 
-section header div{
+#inicio .contenido header .contenido-header{
     max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#inicio .contenido header .contenido-header h1{
+    
 }
